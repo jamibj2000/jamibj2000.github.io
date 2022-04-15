@@ -1,14 +1,12 @@
 import {upperCaseString} from './sweetalert_module.js'
-/* const saludo = upperCaseString('Holis, esto es una cadena de texto!')
-console.log(saludo); */
-
-
+const saludo = upperCaseString('Holis, esto es una cadena de texto!')
+console.log(saludo);
+console.log('esto se está ejecutando');
 /*
   MENU - MODALS - ANIMATION INSPIRATED
   DARK MODE
   INSERT CV
   MINIMALISTA
-
 */
 
 /*
