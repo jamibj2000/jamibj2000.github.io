@@ -1,7 +1,18 @@
 import {upperCaseString} from './sweetalert_module.js'
+import {motorbikeService} from './motoservice.js'
+const object = {
+  a1: {driverName: 'jamiel', timeSchedule: 8},
+  a2: {driverName: 'maria', timeSchedule: 9},
+  a3: {driverName: 'pedro', timeSchedule: 12},
+  a4: {driverName: 'carlos', timeSchedule: 4}
+}
+console.log(motorbikeService(object))
 const saludo = upperCaseString('Holis, esto es una cadena de texto!')
-console.log(saludo);
+
 console.log('esto se está ejecutando');
+
+
+
 /*
   MENU - MODALS - ANIMATION INSPIRATED
   DARK MODE
