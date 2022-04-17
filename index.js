@@ -4,14 +4,30 @@ const object = {
   a1: {driverName: 'jamiel', timeSchedule: 8},
   a2: {driverName: 'maria', timeSchedule: 9},
   a3: {driverName: 'pedro', timeSchedule: 12},
-  a4: {driverName: 'carlos', timeSchedule: 4}
+  a4: {driverName: 'karibel', timeSchedule: 12},
+  a5: {driverName: 'luisa', timeSchedule: 12},
+  a6: {driverName: 'janet', timeSchedule: 12},
+  a7: {driverName: 'pepe', timeSchedule: 12},
+  a8: {driverName: 'soledad', timeSchedule: 12},
+  a9: {driverName: 'ana', timeSchedule: 12},
+  a10: {driverName: 'josefina', timeSchedule: 12},
+  a11: {driverName: 'claudia', timeSchedule: 12},
+  a12: {driverName: 'jose', timeSchedule: 12},
+  a13: {driverName: 'rafael', timeSchedule: 12},
+  a14: {driverName: 'piter', timeSchedule: 12},
+  a15: {driverName: 'manuel', timeSchedule: 12},
+  a16: {driverName: 'benjamin', timeSchedule: 12},
+  a17: {driverName: 'teresa', timeSchedule: 12},
+  a18: {driverName: 'carlos', timeSchedule: 4}
 }
-console.log(motorbikeService(object))
+//console.log(motorbikeService(object))
+console.log();
+Swal.fire({        
+  type: 'success',
+  title: 'Éxito',
+  text: '¡Perfecto! Te has conectado desde ' + window.location.href,
+});
 const saludo = upperCaseString('Holis, esto es una cadena de texto!')
-
-console.log('esto se está ejecutando');
-
-
 
 /*
   MENU - MODALS - ANIMATION INSPIRATED
