@@ -6,7 +6,7 @@ $("#store").click(function(){
         type: 'error',
         title: 'Error',
         text: '¡Algo salió mal!',        
-    });*/
+    }); */
     Swal.fire({        
         type: 'success',
         title: 'Éxito',

@@ -21,7 +21,6 @@ const object = {
   a18: {driverName: 'carlos', timeSchedule: 4}
 }
 //console.log(motorbikeService(object))
-console.log();
 Swal.fire({        
   type: 'success',
   title: 'Éxito',

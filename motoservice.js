@@ -26,10 +26,7 @@ const motorbikeService = (obj) => {
     })
     return obj
 }
-
 export { motorbikeService }
-
-
 /* 
 function sumar_horas()
 {
